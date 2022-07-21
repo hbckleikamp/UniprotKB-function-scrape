@@ -8,12 +8,12 @@ import pandas as pd
 import gzip
 
 
-#Download from uniprotKB FTP
+#First, Download these from uniprotKB FTP (requires at least 150 GB of space. Do not unzip, the scripts reads them in compressed state)
 #https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/uniprot_sprot.dat.gz
 #https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/uniprot_trembl.dat.gz
 
-files=["C:/Comet/Databases/UnirpotKB_functions/uniprot_sprot.dat.gz", #path to uniprot_sprot.dat
-"C:/Comet/Databases/UnirpotKB_functions/uniprot_trembl.dat.gz"]       #path to uniprot_trembl.dat
+files=["path/to/uniprot_sprot.dat.gz",        #path to uniprot_sprot.dat
+       "path/to/uniprot_trembl.dat.gz"]       #path to uniprot_trembl.dat
 
 parsed=[]
 counter=0
