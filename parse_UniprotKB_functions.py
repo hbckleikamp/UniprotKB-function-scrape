@@ -2,9 +2,9 @@
 """
 Created on Thu Jul 21 11:33:11 2022
 
-@author: ZR48SA
+@author: hbckleikamp
 """
-import pandas as pd
+
 import gzip
 
 
@@ -107,6 +107,5 @@ with open("UniprotKB_functions.tsv","w") as w:
 
         
         
-#%%
 
         
